@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.learning_curve import learning_curve
+from sklearn.model_selection import learning_curve
 
 
 def plot_learning_curve(estimator, title, X, y, ylim=None, cv=None, n_jobs=1, 
